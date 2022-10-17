@@ -1,6 +1,6 @@
 # AtablechezCHARLOTTE
 
-// 可使用F12檢視工具檢視
+// 可使用F12檢視工具，或是下載至VS Code檢視
 <br>
 // 網頁切版為mobile first，電腦版採用RWD的方式呈現
 <br>
