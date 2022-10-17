@@ -2,14 +2,17 @@
     width: 100%;
     min-width: 370px;
     margin: auto;
+
     * {
         margin: 0;
         padding: 0;
         list-style: none;
     }
+
     .wrap {
         width: 100%;
     }
+
     p {
         font-size: 12px;
         color: #fff;
@@ -22,16 +25,18 @@
     header {
         width: 100%;
         height: auto;
-        padding: 10px 0;
+        padding: 10px 0px;
         display: flex;
         align-items: center;
         position: fixed;
-        background-color: #18393B;
+        background-color: rgba(24, 57, 59, 0.8);
         z-index: 100;
         top: 0;
+
         .logo img {
             margin: 0 10px;
         }
+
         .pages {
             width: 100%;
             font-size: 16px;
@@ -39,7 +44,11 @@
             margin: 0 20px;
             gap: 12px;
             justify-content: right;
-            .home, .special, .menu, .contact {
+
+            .home,
+            .special,
+            .menu,
+            .contact {
                 color: #fff;
                 font-family: 'Noto Serif TC', serif;
                 font-weight: 400;
@@ -57,54 +66,68 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+
         .menu_text {
             animation: fadeInUp 2s;
+
             h2 {
                 font-size: 2em;
                 font-family: 'Noto Serif TC', serif;
                 font-weight: 500;
             }
         }
+
         .menu_decoline {
             width: 100%;
             border-top: solid #FFD9D9 2px;
             margin-top: 10px;
             margin-bottom: 20px;
         }
+
         .menu_up {
             display: flex;
+
             .menu_top {
                 img {
                     width: 100%;
                 }
             }
+
             .menu_right {
                 display: flex;
                 flex-direction: column;
+
                 .menu_hug {
                     display: flex;
+
                     img {
                         width: 100%;
                     }
                 }
             }
         }
+
         .menu_down {
             display: flex;
+
             .menu_left {
                 display: flex;
                 flex-direction: column;
+
                 .menu_hug {
                     width: 100%;
                     display: flex;
+
                     img {
                         width: 100%;
                     }
                 }
             }
+
             .menu_bottom {
                 display: flex;
                 align-items: flex-end;
+
                 img {
                     width: 100%;
                 }
@@ -118,15 +141,18 @@
         text-align: center;
         background-color: #18393B;
         padding: 0 20px;
+
         .copyright {
             color: #fff;
             padding: 10px 0;
+
             p {
                 padding: 2px;
             }
         }
     }
 }
+
 body {
     margin: 0;
 }
@@ -134,27 +160,33 @@ body {
 @media screen and (min-width: 768px) {
     #wrap {
         width: 100%;
+
         // max-width: 1400px;
         header {
             // max-width: 1400px;
-            padding: 20px 0;
+            padding: 20px 20px;
+
             .logo img {
                 margin: 0 20px;
             }
+
             .pages {
                 gap: 50px;
             }
         }
+
         .menu_main {
             display: flex;
             flex-direction: column;
             padding: 150px 20px 20px 20px;
+
             .menu_decoline {
                 width: 70%;
                 border-top: solid #FFD9D9 3px;
                 margin-top: 20px;
                 margin-bottom: 40px;
             }
+
             .menu_text {
                 h2 {
                     font-size: 4em;
@@ -162,24 +194,29 @@ body {
                     font-weight: 500;
                 }
             }
+
             .menu_up {
                 .menu_right {
                     display: flex;
                     flex-direction: row;
                 }
             }
+
             .menu_down {
                 padding-top: 50px;
+
                 .menu_left {
                     display: flex;
                     flex-direction: row;
                 }
             }
         }
+
         footer {
             .copyright {
                 display: flex;
                 justify-content: center;
+
                 p {
                     padding: 0 5px;
                 }

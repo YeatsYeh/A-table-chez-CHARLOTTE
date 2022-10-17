@@ -21,11 +21,11 @@
 #wrap header {
   width: 100%;
   height: auto;
-  padding: 10px 0;
+  padding: 10px 0px;
   display: flex;
   align-items: center;
   position: fixed;
-  background-color: #18393B;
+  background-color: rgba(24, 57, 59, 0.8);
   z-index: 100;
   top: 0;
 }
@@ -40,7 +40,10 @@
   gap: 12px;
   justify-content: right;
 }
-#wrap header .pages .home, #wrap header .pages .special, #wrap header .pages .menu, #wrap header .pages .contact {
+#wrap header .pages .home,
+#wrap header .pages .special,
+#wrap header .pages .menu,
+#wrap header .pages .contact {
   color: #fff;
   font-family: "Noto Serif TC", serif;
   font-weight: 400;
@@ -129,7 +132,7 @@ body {
     width: 100%;
   }
   #wrap header {
-    padding: 20px 0;
+    padding: 20px 20px;
   }
   #wrap header .logo img {
     margin: 0 20px;
