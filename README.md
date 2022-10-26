@@ -1,7 +1,3 @@
-<style>
-  line-height: 16px;
-</style>
-
 # AtablechezCHARLOTTE
 
 // A table chez CHARLOTTE 是一間位於捷運中山國中站附近的餐廳，主打義大利麵、燉飯、各式咖啡飲品，屬於複合式餐廳
